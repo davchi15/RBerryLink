@@ -105,7 +105,7 @@ this takes 2 minutes (60 cycles × 2 seconds each).
 To change it, open pi_dashboard.py and find this section near  
 
 the top of the file — it's clearly marked:  
-
+```
 # ==========================================
 # --- BRANDING & THEME CONSTANTS ---
 # ==========================================
@@ -115,8 +115,11 @@ the top of the file — it's clearly marked:
 # --- CALIBRATION CONSTANTS ---
 HISTORY_SIZE  = 60   # battery history cycles (~2 min). Don't lower.
 SPLASH_CYCLES = 60   # cycles before splash dismisses.
-Change SPLASH_CYCLES to adjust how long the splash shows:
-ValueDurationNotes60~2 minutesDefault — best accuracy30~1 minuteGood balance10~20 secondsFast but less accurate on first launch1~2 secondsSkip splash entirely (testing only)
+```
+Change SPLASH_CYCLES to adjust how long the splash shows:  
+
+ValueDurationNotes60~2 minutesDefault — best accuracy30~1 minuteGood balance10~20 secondsFast but less accurate on first launch1~2 secondsSkip splash entirely (testing only)  
+
 
 ⚠️ Do not lower HISTORY_SIZE — this controls how many readings
 are kept in memory for the rate calculation. Lowering it will make
