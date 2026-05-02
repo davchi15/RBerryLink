@@ -125,13 +125,20 @@ That's it — it will launch automatically on the next boot.
 
 ## 📁 File Structure
 RBerryLink_Monitor/
-├── pi_dashboard.py          # Main application
-├── icon.png                 # Taskbar icon
-├── settings.default.json    # Default settings reference
-├── settings.json            # Your saved settings (auto-created)
-├── requirements.txt         # Python dependencies
-├── README.md
-└── .gitignore
+├── pi_dashboard.py          # Main application  
+
+├── icon.png                 # Taskbar icon  
+
+├── settings.default.json    # Default settings reference  
+
+├── settings.json            # Your saved settings (auto-created)  
+
+├── requirements.txt         # Python dependencies  
+
+├── README.md  
+
+└── .gitignore  
+
 
 ---
 
@@ -152,7 +159,7 @@ pip install -r requirements.txt --break-system-packages
 
 ## 📺 Watch the Video
 
-> 🔗 [youtube.com](https://www.youtube.com/@Davchi15)]
+> 🔗 [youtube.com](https://www.youtube.com/@Davchi15)
 
 ---
 
