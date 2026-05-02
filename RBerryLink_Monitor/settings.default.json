@@ -1,0 +1,4 @@
+{
+  "shutdown_threshold": 5,
+  "safe_shutdown_enabled": true
+}
