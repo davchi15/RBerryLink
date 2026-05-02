@@ -118,16 +118,25 @@ SPLASH_CYCLES = 60   # cycles before splash dismisses.
 ```
 Change SPLASH_CYCLES to adjust how long the splash shows:  
 
-ValueDurationNotes60~2 minutesDefault — best accuracy30~1 minuteGood balance10~20 secondsFast but less accurate on first launch1~2 secondsSkip splash entirely (testing only)  
+ValueDurationNotes60~2 minutesDefault — best accuracy  
+30~1 minuteGood balance  
+10~20 secondsFast but less accurate on first launch  
+1~2 secondsSkip splash entirely (testing only)  
 
+⚠️ Do not lower HISTORY_SIZE — this controls how many readings  
 
-⚠️ Do not lower HISTORY_SIZE — this controls how many readings
-are kept in memory for the rate calculation. Lowering it will make
-your discharge rate and time-remaining estimates unreliable and jumpy.
-SPLASH_CYCLES and HISTORY_SIZE are independent — you can set
-SPLASH_CYCLES to 1 to skip the splash while keeping
-HISTORY_SIZE at 60 for accurate estimates after the first
-2 minutes of running.
+are kept in memory for the rate calculation. Lowering it will make  
+
+your discharge rate and time-remaining estimates unreliable and jumpy.  
+
+SPLASH_CYCLES and HISTORY_SIZE are independent — you can set  
+
+SPLASH_CYCLES to 1 to skip the splash while keeping  
+
+HISTORY_SIZE at 60 for accurate estimates after the first  
+
+2 minutes of running.  
+
 
 
 ## 🔌 I2C Address Note
