@@ -5,7 +5,8 @@
 
 > 📺 Built on the **Davchi15** YouTube channel — 
 > subscribe for the full build guide and more Pi projects.
- [youtube.com/@Davchi15]
+
+[youtube.com](https://www.youtube.com/@Davchi15) 
 
 RBerryLink Monitor is a passive always-on system dashboard for the 
 **Raspberry Pi 5** with the **Waveshare X1202 UPS HAT**. It displays 
