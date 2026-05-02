@@ -95,6 +95,32 @@ All tunable settings are at the top of `pi_dashboard.py`:
 > adjustable directly from the dashboard footer — no editing needed.
 
 ---
+## ⏱️ Changing the Splash Screen Duration
+The splash screen stays visible while RBerryLink buffers battery
+readings to build an accurate discharge rate estimate. By default
+this takes 2 minutes (60 cycles × 2 seconds each).
+To change it, open pi_dashboard.py and find this section near
+the top of the file — it's clearly marked:
+python# ==========================================
+# --- BRANDING & THEME CONSTANTS ---
+# ==========================================
+
+...
+
+# --- CALIBRATION CONSTANTS ---
+HISTORY_SIZE  = 60   # battery history cycles (~2 min). Don't lower.
+SPLASH_CYCLES = 60   # cycles before splash dismisses.
+Change SPLASH_CYCLES to adjust how long the splash shows:
+ValueDurationNotes60~2 minutesDefault — best accuracy30~1 minuteGood balance10~20 secondsFast but less accurate on first launch1~2 secondsSkip splash entirely (testing only)
+
+⚠️ Do not lower HISTORY_SIZE — this controls how many readings
+are kept in memory for the rate calculation. Lowering it will make
+your discharge rate and time-remaining estimates unreliable and jumpy.
+SPLASH_CYCLES and HISTORY_SIZE are independent — you can set
+SPLASH_CYCLES to 1 to skip the splash while keeping
+HISTORY_SIZE at 60 for accurate estimates after the first
+2 minutes of running.
+
 
 ## 🔌 I2C Address Note
 
