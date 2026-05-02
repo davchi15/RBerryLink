@@ -96,12 +96,17 @@ All tunable settings are at the top of `pi_dashboard.py`:
 
 ---
 ## ⏱️ Changing the Splash Screen Duration
-The splash screen stays visible while RBerryLink buffers battery
-readings to build an accurate discharge rate estimate. By default
-this takes 2 minutes (60 cycles × 2 seconds each).
-To change it, open pi_dashboard.py and find this section near
-the top of the file — it's clearly marked:
-python# ==========================================
+The splash screen stays visible while RBerryLink buffers battery  
+
+readings to build an accurate discharge rate estimate. By default  
+
+this takes 2 minutes (60 cycles × 2 seconds each).  
+
+To change it, open pi_dashboard.py and find this section near  
+
+the top of the file — it's clearly marked:  
+
+# ==========================================
 # --- BRANDING & THEME CONSTANTS ---
 # ==========================================
 
