@@ -42,10 +42,11 @@ before the battery runs out.
 | Component | Where to Get |
 |-----------|-------------|
 | Raspberry Pi 5 | [amazon.com](https://amzn.to/4w3PfQr)|
-| Waveshare X1202 UPS HAT | [amazon.com](https://amzn.to/4tWOHKL) |
+| Geekworm X1201/X1202/X1203/X1204/X1205/X1206 UPS hat | [amazon.com](https://amzn.to/4tWOHKL) |
 | MicroSD card |[amazon.com](https://amzn.to/49pIWwO)|
 | 18650 Batteries for UPS |[amazon.com](https://amzn.to/4n5EKYR)|
 
+The video uses the Geekworm X1202, however, the RBerryLink is compatible with multiple models.
 ---
 
 ## 🚀 Quick Start
