@@ -9,7 +9,7 @@
 [youtube.com](https://www.youtube.com/@Davchi15) 
 
 RBerryLink Monitor is a passive always-on system dashboard for the 
-**Raspberry Pi 5** with the **Waveshare X1202 UPS HAT**. It displays 
+**Raspberry Pi 5** with the **Geekworm X Series UPS HAT**. It displays 
 real-time battery, system, disk, and network stats in a retro 
 Pip-Boy terminal aesthetic — and will safely shut your Pi down 
 before the battery runs out.
