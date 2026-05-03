@@ -147,7 +147,7 @@ HISTORY_SIZE at 60 for accurate estimates after the first
 
 ## 🔌 I2C Address Note
 
-Some Waveshare X1202 boards use address `0x40` instead of `0x41` 
+Some Geekworm X1202 boards use address `0x40` instead of `0x41` 
 for the INA219 power monitor. If your UPS bus voltage always shows 
 `0.00 V`, change this line near the top of `pi_dashboard.py`:
 
