@@ -14,6 +14,8 @@ real-time battery, system, disk, and network stats in a retro
 Pip-Boy terminal aesthetic — and will safely shut your Pi down 
 before the battery runs out.
 
+<img width="769" height="923" alt="RBerryLink Cropped Screenshot" src="https://github.com/user-attachments/assets/d4c746bb-d96e-45ef-9230-ddcefdc4599e" />
+
 ---
 
 ## ✨ Features
