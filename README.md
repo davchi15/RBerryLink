@@ -119,11 +119,11 @@ SPLASH_CYCLES = 60   # cycles before splash dismisses.
 Change SPLASH_CYCLES to adjust how long the splash shows:  
 
 | Splashscreen Time Configuration | Outcome |
-|----------|---------|-------------|
+|---------------------------------|---------|
 | `60 seconds ~ 2 minutes` | `Default — best accuracy on start` |
 | `30 seconds ~ 1 minute` | `Good balance` |
 | `10 ~ 20 seconds` | `Fast but less accurate on first launch` | 
-| `1 ~ 2 seconds` | `Skip splash entirely (testing only)` | 
+| `1 ~ 2 seconds` | `Skip splash entirely (testing only)` |   
 
 ⚠️ Do not lower HISTORY_SIZE — this controls how many readings  
 
