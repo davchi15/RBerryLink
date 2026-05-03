@@ -118,7 +118,7 @@ SPLASH_CYCLES = 60   # cycles before splash dismisses.
 ```
 Change SPLASH_CYCLES to adjust how long the splash shows:  
 
-| Value | Splashscreen Time Configuration | Outcome |
+| Value Configuration - (SPLASH_CYCLES) | Splashscreen Time  | Outcome |
 |-------|---------------------------------|---------|
 | 30 - 60 | `60 seconds ~ 2 minutes` | `Default — best accuracy on start` |
 | 15 - 30 | `30 seconds ~ 1 minute` | `Good balance` |
