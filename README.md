@@ -43,7 +43,7 @@ before the battery runs out.
 |-----------|-------------|
 | Raspberry Pi 5 | [amazon.com](https://amzn.to/4w3PfQr)|
 | Waveshare X1202 UPS HAT | [amazon.com](https://amzn.to/4tWOHKL) |
-| MicroSD card (16GB+) |[amazon.com](https://amzn.to/49pIWwO)|
+| MicroSD card |[amazon.com](https://amzn.to/49pIWwO)|
 | 18650 Batteries for UPS |[amazon.com](https://amzn.to/4n5EKYR)|
 
 ---
