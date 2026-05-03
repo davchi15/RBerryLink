@@ -117,6 +117,8 @@ HISTORY_SIZE  = 60   # battery history cycles (~2 min). Don't lower.
 SPLASH_CYCLES = 60   # cycles before splash dismisses.
 ```
 Change SPLASH_CYCLES to adjust how long the splash shows:  
+```
+
 ValueDurationNotes:  
 
 60 seconds ~ 2 minutes | Default — best accuracy  
@@ -126,6 +128,7 @@ ValueDurationNotes:
 10 ~ 20 seconds | Fast but less accurate on first launch  
 
 1 ~ 2 seconds | Skip splash entirely (testing only)  
+```
 
 
 ⚠️ Do not lower HISTORY_SIZE — this controls how many readings  
